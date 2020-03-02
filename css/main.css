@@ -147,6 +147,7 @@ footer {
   justify-content: space-between;
   margin-top: -20px;
   padding: 50px 250px 0px 250px;
+  width: 88%;
 }
 
 a {
@@ -159,11 +160,7 @@ a {
   font-size: 14px;
 }
 
-.col-1 > p {
-  padding: 10px 0px 0px 0px;
-}
-
-.col-1 > h4 {
+.col-1 > h4, .col-1-links > a {
   font-weight: 600;
 }
 
@@ -171,22 +168,21 @@ a {
   padding: 0px 0px 10px 20px;
 }
 
-.col-1-links > a {
-  font-weight: 600;
-}
-
 .col-2 > h2, .col-3 > h2 {
   color: #f6b93c;
   font-weight: 600;
+  font-size: 20px;
 }
 
-.col-2 > p, .col-3 > p {
+.col-1 > p, .col-2 > p, .col-3 > p {
   padding: 10px 0px 0px 0px;
 }
 
 .col-2 > a, .col-3 > a {
   color: #6f6d63;
   line-height: 28px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .social-media {
