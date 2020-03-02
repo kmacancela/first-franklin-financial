@@ -9,19 +9,19 @@
 /* HEADER */
 
 header {
-  background-image: linear-gradient(to right, white , #ffcc02);
-  height: 100px;
+  background-image: linear-gradient(to right, #fcf9e7 , #ffcc02);
+  height: 90px;
 }
 
 nav {
-  margin: 0px 200px 0px 200px;
+  margin: 0px 250px 0px 250px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 
 nav > h2 {
-  padding: 30px;
+  padding: 20px;
   font-weight: 600;
 }
 
@@ -33,12 +33,9 @@ main {
   color: #434243;
   margin: 0px 250px 0px 250px;
   border-radius: 150px;
-  /* background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../assets/background.png") no-repeat;
-  background-position: bottom right; */
   box-shadow: 250px 0 100px 50px white inset;
   height: inherit;
   background-size: cover;
-
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
   background-position: -350px -20px;
@@ -56,6 +53,7 @@ main {
 }
 
 .left-content > button {
+  font-weight: 600;
   background-color: #363431;
   border: none;
   color: white;
@@ -67,7 +65,7 @@ main {
 }
 
 .description {
-  padding-top: 90px;
+  padding-top: 70px;
   margin-right: 40%;
   line-height: 18px;
 }
@@ -79,11 +77,11 @@ main {
 
 .right-content {
   background-color: #3f3d39;
-  height: 320px;
+  height: 312px;
   width: 1000px;
   color: white;
   text-transform: uppercase;
-  margin: 50px 20px 0px 0px;
+  margin: 20px 20px 0px 0px;
   border-radius: 5px;
 }
 
@@ -111,17 +109,17 @@ input[type=text] {
 
 input[type=submit] {
   background-color: #f7af25;
+  box-shadow: 0px 0px 20px 0px #d87118 inset;
   border: none;
   color: black;
   font-weight: 600;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 6px 34px;
+  padding: 6px ;
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 12px;
   cursor: pointer;
   width: 150px;
-  /* text-align: center; */
 }
 
 /* FOOTER */
@@ -135,7 +133,8 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  padding: 50px 250px 50px 250px;
+  margin-top: -20px;
+  padding: 50px 250px 0px 250px;
 }
 
 a {
@@ -146,7 +145,6 @@ a {
 
 .col-1 {
   font-size: 14px;
-  /* padding: 50px 0px 0px 0px; */
 }
 
 .col-1 > p {
@@ -155,7 +153,10 @@ a {
 
 .col-1 > h4 {
   font-weight: 600;
-  /* padding: 10px 0px 0px 0px; */
+}
+
+.col-1 > img {
+  padding: 0px 0px 10px 20px;
 }
 
 .col-2 > h2, .col-3 > h2 {
@@ -169,4 +170,9 @@ a {
 
 .col-2 > a, .col-3 > a {
   color: #6f6d63;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
 }
